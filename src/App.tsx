@@ -1,7 +1,8 @@
 import React from "react";
+import { Footer } from "./components/Footer/Footer.tsx";
 
 export const App = () => {
   return (
-    <h1>The great start</h1>
+    <Footer />
   );
 };
