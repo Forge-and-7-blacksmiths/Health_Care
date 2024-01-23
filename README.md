@@ -1,6 +1,6 @@
 # Getting Started with React App
 
-code -> copy the SSH URL -> `git clone 'Copied_URL'` in your terminal -> `code Health_Care` -> 
+code -> copy the HTTPS URL -> `git clone 'Copied_URL'` in your terminal -> `code Health_Care` -> 
 -> `git checkout -b develop` -> `npm install` 
 
 
