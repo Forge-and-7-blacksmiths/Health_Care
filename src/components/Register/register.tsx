@@ -3,6 +3,6 @@ import './Register.scss';
 
 export const Register = () => {
   return (
-    <h1>The great start</h1>
+    <h1>zak</h1>
   );
 };
