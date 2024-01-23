@@ -3,6 +3,6 @@ import './Footer.scss';
 
 export const Footer = () => {
   return (
-    <h1>The great start</h1>
+    <h1>Hello</h1>
   );
 };
