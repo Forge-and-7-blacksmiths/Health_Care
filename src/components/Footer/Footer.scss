@@ -1,0 +1,89 @@
+.container{
+    max-width: 1700px;
+}
+.footer{
+    padding: 144px 120px 29px 119px;
+}
+.footerContainer{
+    display: flex;
+}
+.logoIcon{
+    width: 74px;
+    height: 81px;
+}
+.logoText{
+    width: 220px;
+    height: 65px;
+}
+.footerLogos{
+    display: flex;
+    flex-direction: column;
+}
+.footerIconFacebook{
+    width: 13px;
+    height: 23px;
+}
+.footerIconTwitter{
+    width: 22px;
+    height: 18px;
+}
+.footerIconInstagram{
+    width: 23px;
+    height: 23px;
+}
+.footerIconLinkedin{
+    width: 23px;
+    height: 22px;
+}
+.footerIconYouTube{
+    width: 25px;
+    height: 18px;
+}
+.footerLeft{
+ display: flex;
+ flex-direction: column;
+ padding: 0;
+ margin-right: 97px;
+}
+.footerProduct{
+    margin-right: 124px;
+}
+.footerCompany{
+    margin-right: 120px;
+}
+.footerSupport{
+    margin-right: 136px;
+
+}
+.footerContact{
+
+}
+.footerIconsBlock{
+    display: flex;
+}
+.footerIconsList{
+    list-style: none;
+    display: flex;
+    align-items: baseline;
+    flex-direction: row;
+    justify-content: start;
+    padding: 0;
+}
+.footerIconsItem{
+    margin-right: 26px;
+}
+.footerList{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding: 0;
+}
+.footerSubject{
+    margin-bottom: 47px;
+    color: #1678F2;
+
+}
+.footerItem{
+    margin-bottom: 22px;
+}
