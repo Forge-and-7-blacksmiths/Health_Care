@@ -1,89 +1,134 @@
-.container{
-    max-width: 1700px;
+.container {
+  max-width: 1700px;
 }
-.footer{
-    padding: 144px 120px 29px 119px;
+.footer {
+  padding: 144px 120px 29px 119px;
 }
-.footerContainer{
-    display: flex;
+.footerContainer {
+  display: flex;
 }
-.logoIcon{
-    width: 74px;
-    height: 81px;
+.logoIcon {
+  width: 74px;
+  height: 81px;
 }
-.logoText{
-    width: 220px;
-    height: 65px;
+.logoText {
+  width: 220px;
+  height: 65px;
 }
-.footerLogos{
-    display: flex;
-    flex-direction: column;
+.footerLogos {
+  display: flex;
+  flex-direction: column;
 }
-.footerIconFacebook{
-    width: 13px;
-    height: 23px;
+.footerIconFacebook {
+  width: 13px;
+  height: 23px;
 }
-.footerIconTwitter{
-    width: 22px;
-    height: 18px;
+.footerIconTwitter {
+  width: 22px;
+  height: 18px;
 }
-.footerIconInstagram{
-    width: 23px;
-    height: 23px;
+.footerIconInstagram {
+  width: 23px;
+  height: 23px;
 }
-.footerIconLinkedin{
-    width: 23px;
-    height: 22px;
+.footerIconLinkedin {
+  width: 23px;
+  height: 22px;
 }
-.footerIconYouTube{
-    width: 25px;
-    height: 18px;
+.footerIconYouTube {
+  width: 25px;
+  height: 18px;
 }
-.footerLeft{
- display: flex;
- flex-direction: column;
- padding: 0;
- margin-right: 97px;
+.footerIcons{
+    width: 20px;
+    height: 15px;
 }
-.footerProduct{
-    margin-right: 124px;
+.footerLeft {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin-right: 97px;
 }
-.footerCompany{
-    margin-right: 120px;
+.footerUnderlineBlock {
+  display: flex;
+  align-items: baseline;
+  justify-content: flex-end;
+  border-top: 1.2px solid #d9dbe9;
 }
-.footerSupport{
-    margin-right: 136px;
-
+.footerProduct {
+  margin-right: 124px;
 }
-.footerContact{
-
+.footerCompany {
+  margin-right: 120px;
 }
-.footerIconsBlock{
-    display: flex;
+.footerSupport {
+  margin-right: 136px;
 }
-.footerIconsList{
-    list-style: none;
-    display: flex;
-    align-items: baseline;
-    flex-direction: row;
-    justify-content: start;
-    padding: 0;
+.footerContactLink {
+    line-height: 24px;
+    text-decoration: none;
+    color: #4F555A;
 }
-.footerIconsItem{
-    margin-right: 26px;
+.footerIconsBlock {
+  display: flex;
 }
-.footerList{
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    padding: 0;
+.footerIconsList {
+  list-style: none;
+  display: flex;
+  align-items: baseline;
+  flex-direction: row;
+  justify-content: start;
+  padding: 0;
 }
-.footerSubject{
-    margin-bottom: 47px;
-    color: #1678F2;
-
+.footerIconsItem {
+  margin-right: 26px;
 }
-.footerItem{
-    margin-bottom: 22px;
+.footerList {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  padding: 0;
+}
+.footerSubject {
+  margin-bottom: 48px;
+  line-height: 27px;
+  color: #1678f2;
+}
+.footerItem {
+  margin-bottom: 17px;
+  line-height: 24px;
+  color: #4F555A;
+  padding: 0;
+}
+.noNameText{
+    color: #6F6C90;
+    line-height: 36px;
+}
+.footerCopyright {
+  margin-right: 730px;
+  color: #6F6C90;
+  line-height: 36px;
+}
+.footerRights {
+  margin-right: 15px;
+  position: relative;
+  line-height: 36px;
+  color: #6F6C90;
+}
+.footerRights::after{
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 15px;
+    color:#1678f2;
+    right: 200;
+}
+.termsConditions {
+  margin-right: 15px;
+  color: #4A3AFF;
+}
+.policy {
+  margin-right: 20px;
+  color: #4A3AFF;
 }

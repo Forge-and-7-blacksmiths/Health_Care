@@ -25,7 +25,7 @@ export const Footer = () => {
           <img
             className ={'logoText'}
               src={logoText} alt='logoText' />
-              <p className=''>Lorem ipsum dolor sit amet consectetur adipiscing elit aliquam</p></div>
+              <p className='noNameText'>Lorem ipsum dolor sit amet consectetur adipiscing elit aliquam</p></div>
                 <div className='footerIconsBlock'>
           <ul className='footerIconsList'>
             <li className='footerIconsItem'><a href='index.html' className='footerIconsLink'> <img className='footerIconFacebook' src={iconFacebook} alt='icon' /> </a></li>
@@ -76,6 +76,11 @@ San Francisco, 94102</a></li>
           </ul>
       </div>
       </div>
+      <div className="footerUnderlineBlock">
+        <p className="footerCopyright">Copyright © 2022 </p>
+        <p className="footerRights">All Rights Reserved</p>
+        <a href="index.html" className="termsConditions">Terms and Conditions</a>
+        <a href="index.html" className="policy">Privacy Policy</a></div>
     </footer>
   );
 };
