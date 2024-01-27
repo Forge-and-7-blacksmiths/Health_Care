@@ -37,7 +37,7 @@ export const Footer = () => {
                 </div>
         </div>
       <div className='footerProduct'>
-        <h1 className='footerSubject'>Products</h1>
+        <h4 className='footerSubject'>Products</h4>
           <ul className='footerList'>
             <li className='footerItem'>Features</li>
             <li className='footerItem'>Pricing</li>
@@ -47,7 +47,7 @@ export const Footer = () => {
           </ul>
       </div>
       <div className='footerCompany'>
-        <h1 className='footerSubject'>Company</h1>
+        <h4 className='footerSubject'>Company</h4>
           <ul className='footerList'>
             <li className='footerItem'>About</li>
             <li className='footerItem'>Contact us</li>
@@ -57,7 +57,7 @@ export const Footer = () => {
           </ul>
       </div>
       <div className='footerSupport'>
-        <h1 className='footerSubject'>Support</h1>
+        <h4 className='footerSubject'>Support</h4>
           <ul className='footerList'>
             <li className='footerItem'>Getting started</li>
             <li className='footerItem'>Help center</li>
@@ -67,7 +67,7 @@ export const Footer = () => {
           </ul>
       </div>
       <div className='footerContact'>
-        <h1 className='footerSubject'>Contact us</h1>
+        <h4 className='footerSubject'>Contact us</h4>
           <ul className='footerList'>
             <li className='footerItem'><a href='index.html' className='footerContactLink'><img className='footerIcons' src={iconMail} alt='icon' />contact@company.com</a></li>
             <li className='footerItem'><a href='index.html' className='footerContactLink'><img className='footerIcons' src={iconPhone} alt='icon' />(414) 687 - 5892</a></li>
@@ -76,7 +76,7 @@ San Francisco, 94102</a></li>
           </ul>
       </div>
       </div>
-      <div className="footerUnderlineBlock">
+      <div className="container footerUnderlineContainer">
         <p className="footerCopyright">Copyright © 2022 </p>
         <p className="footerRights">All Rights Reserved</p>
         <a href="index.html" className="termsConditions">Terms and Conditions</a>

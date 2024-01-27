@@ -1,11 +1,13 @@
 .container {
-  max-width: 1700px;
+  max-width: 1727px;
+  font-family: "M PLUS 1", sans-serif;
 }
 .footer {
   padding: 144px 120px 29px 119px;
 }
 .footerContainer {
   display: flex;
+  padding-bottom: 92px;
 }
 .logoIcon {
   width: 74px;
@@ -39,35 +41,42 @@
   width: 25px;
   height: 18px;
 }
-.footerIcons{
-    width: 20px;
-    height: 15px;
+.footerIcons {
+  width: 20px;
+  height: 15px;
 }
 .footerLeft {
   display: flex;
+  width: 372px;
   flex-direction: column;
   padding: 0;
-  margin-right: 97px;
+  margin-right: 96px;
 }
-.footerUnderlineBlock {
+.footerUnderlineContainer {
   display: flex;
   align-items: baseline;
   justify-content: flex-end;
   border-top: 1.2px solid #d9dbe9;
 }
 .footerProduct {
-  margin-right: 124px;
+  width: 120px;
+  margin-right: 100px;
 }
 .footerCompany {
-  margin-right: 120px;
+  width: 109px;
+  margin-right: 100px;
 }
 .footerSupport {
+  width: 160px;
   margin-right: 136px;
 }
+.footerContact {
+  width: 272px;
+}
 .footerContactLink {
-    line-height: 24px;
-    text-decoration: none;
-    color: #4F555A;
+  line-height: 24px;
+  text-decoration: none;
+  color: #4f555a;
 }
 .footerIconsBlock {
   display: flex;
@@ -92,43 +101,52 @@
 }
 .footerSubject {
   margin-bottom: 48px;
+  //font-weight: 700;
+  // font-size: 20px;
   line-height: 27px;
   color: #1678f2;
 }
 .footerItem {
+  font-weight: 400;
   margin-bottom: 17px;
+  font-size: 17px;
   line-height: 24px;
-  color: #4F555A;
+  color: #4f555a;
   padding: 0;
 }
-.noNameText{
-    color: #6F6C90;
-    line-height: 36px;
+.noNameText {
+  color: #6f6c90;
+  line-height: 36px;
 }
 .footerCopyright {
-  margin-right: 730px;
-  color: #6F6C90;
+  margin-right: 650px;
+  color: #6f6c90;
   line-height: 36px;
 }
 .footerRights {
   margin-right: 15px;
   position: relative;
   line-height: 36px;
-  color: #6F6C90;
+  color: #6f6c90;
 }
-.footerRights::after{
-    content: '';
-    position: absolute;
-    width: 1px;
-    height: 15px;
-    color:#1678f2;
-    right: 200;
+.footerRights::after {
+  content: "|";
+  position: absolute;
+  right: -10px;
+  color: #6f6c90;
 }
 .termsConditions {
+  position: relative;
   margin-right: 15px;
-  color: #4A3AFF;
+  color: #4a3aff;
+}
+.termsConditions::after {
+  content: "|";
+  position: absolute;
+  right: -10px;
+  color: #6f6c90;
 }
 .policy {
   margin-right: 20px;
-  color: #4A3AFF;
+  color: #4a3aff;
 }
