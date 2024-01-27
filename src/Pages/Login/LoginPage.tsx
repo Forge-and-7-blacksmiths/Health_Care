@@ -33,7 +33,7 @@ export const LoginPage = () => {
             className="form-container"
             onSubmit={(e) => {
               e.preventDefault();
-            }}
+            }} 
           >
 
             <input
@@ -55,7 +55,7 @@ export const LoginPage = () => {
               name="password"
               required
             />
-             <button type="button" className="watch-btn" onClick={()=>{setFlagWatch(!flagWatch)}}>{flagWatch ?<LogoNoWatch />: <LogoWatch/>}</button>
+             <button type="button"  className="watch-btn" onClick={()=>{setFlagWatch(!flagWatch)}}>{flagWatch ?<LogoNoWatch />: <LogoWatch/>}</button>
 
             <a href="/" className="link-recover">Recover Password ?</a>
             <button type="submit" className="form-button">Sign in</button>
