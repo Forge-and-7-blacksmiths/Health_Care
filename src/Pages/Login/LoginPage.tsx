@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 import "./LoginPage.scss";
 import { NavLink } from "react-router-dom";
-import{ReactComponent as LogoX} from'./X.svg'
-import{ReactComponent as LogoWatch} from'./Watch.svg'
-import{ReactComponent as LogoNoWatch} from'./Nowatch.svg'
-import{ReactComponent as LogoGoogle} from'./google.svg'
-import{ReactComponent as LogoApple} from'./apple.svg'
-import{ReactComponent as LogoFacebook} from'./facebook.svg'
+import{ReactComponent as LogoX} from'../../images/X.svg';
+import{ReactComponent as LogoWatch} from'../../images/Watch.svg';
+import{ReactComponent as LogoNoWatch} from'../../images/Nowatch.svg';
+import{ReactComponent as LogoGoogle} from'../../images/google.svg';
+import{ReactComponent as LogoApple} from'../../images/apple.svg';
+import{ReactComponent as LogoFacebook} from'../../images/facebook.svg';
 
 export const LoginPage = () => {
   const [flagWatch,setFlagWatch]=useState(false);
