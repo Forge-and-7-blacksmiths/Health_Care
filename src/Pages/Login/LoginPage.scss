@@ -1,0 +1,146 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  max-width: 1567px;
+}
+.form-button {
+  border: none;
+  border-radius: 15px;
+  height: 50px;
+  color: #ffffff;
+  background-color: #4461f2;
+  font-size: 20px;
+  cursor: pointer;
+}
+.inputform {
+  padding: 0 20px;
+  font-size: 20px;
+  background-color: #eaf0f7;
+  height: 50px;
+  border-radius: 15px;
+  color: #4f555a;
+  outline: none;
+  border: none;
+  margin-bottom: 20px;
+}
+.login-container {
+  display: flex;
+  flex-direction: column;
+  width: 394px;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+  position: relative;
+}
+.title-login {
+  font-size: 60px;
+  margin-top: 0;
+}
+.title-form {
+  font-size: 50px;
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+.text-direction {
+  font-size: 20px;
+}
+
+.register-navlink {
+  color: #4461f2;
+  text-decoration: none;
+}
+.link-recover {
+  color: #c7c7c7;
+  text-decoration: none;
+  font-size: 16px;
+  margin-bottom: 40px;
+  align-self: flex-end;
+}
+
+.text-continue {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-align: center;
+  font-size: 16px;
+  color: #acadac;
+  text-shadow: 0 1px rgba(255, 255, 255, 0.6);
+  margin-top: 0px;
+  margin-bottom: 40px;
+}
+.text-continue::after,
+.text-continue::before {
+  content: "";
+  position: relative;
+  display: inline-block;
+  width: 50%;
+  height: 1px;
+  vertical-align: middle;
+  background: #dfdfdf;
+  background-clip: content-box;
+  border-bottom: 1px solid #dfdfdf;
+}
+.text-continue::after {
+  left: 0.5em;
+  margin: 0 -50% 0 0;
+}
+.text-continue::before {
+  left: -0.5em;
+  margin: 0 0 0 -50%;
+}
+.form-link {
+  display: flex;
+  justify-content: space-between;
+
+}
+.form-link a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 115px;
+  height: 59px;
+  background-color: #dddfdd;
+  border-radius: 15px;
+  border: 2px solid #c5ccc5;
+  margin-bottom: 100px;
+}
+.form-link a:hover,
+.form-link a:focus {
+  background-color: #ffffff;
+  border-color: #ffffff ;
+  box-shadow: 0px 1px 1px rgb(0 0 0 / 12%), 0px 4px 4px rgb(0 0 0 / 6%),
+    1px 4px 6px rgb(0 0 0 / 16%);
+}
+.close-btn {
+  width: 19px;
+  background-color: initial;
+  border: none;
+  cursor: pointer;
+  height: 20px;
+  position: absolute;
+  padding: 0;
+  top: 6%;
+  right: 4%;
+}
+.watch-btn {
+  width: 19px;
+  background-color: initial;
+  border: none;
+  cursor: pointer;
+  height: 20px;
+  position: absolute;
+  padding: 0;
+  top: 35%;
+  right: 4%;
+}
+
+.theme-btn{
+    border: none;
+    align-self: flex-end;
+    background-color: initial;
+    cursor: pointer;
+}
