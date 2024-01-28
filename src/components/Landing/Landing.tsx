@@ -5,16 +5,17 @@ import Pic from '../../images/formsvgone.svg';
 import Mic from '../../images/formsvgtwo.svg';
 import Poisk from '../../images/formsvgthree.svg';
 import HeroImage from '../../images/hero-image.jpg';
+import { NavLink } from "react-router-dom";
 
 export const Landing = () => {
   return (
     <section className="hero container">
       <div className=" hero__flex">
         <div className="hero__link">
-          <a href="" className="link">
+          <NavLink to="/" className="link">
             <h3 className="hero__link__text">Health Matters</h3>
             <img src={Heart} alt="heart" />
-          </a>
+          </NavLink>
         </div>
         <h2 className="hero__headline"><span className="hero__headline_text_blue"> One Step Solution </span> <br /> for all your <br /> dietary needs.</h2>
         <h3 className="hero__text">Using your BMI index we calculate whether the <br /> dish is suitable for you.</h3>
