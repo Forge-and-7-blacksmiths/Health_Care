@@ -45,7 +45,7 @@ export const LoginPage = () => {
               onChange={(e)=>setEmailValue(e.currentTarget.value)}
               required
             />
-            <button onClick={()=>{setEmailValue('')}} className="close-btn"><LogoX /></button>
+            <button onClick={()=>{setEmailValue('')}} className="close-btn">{emailValue && <LogoX />}</button>
 
 
             <input
